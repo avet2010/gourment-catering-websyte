@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    min-width: 320px;
+    overflow-x: hidden;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+
+:root{
+    --bs--bg:rgb(241,241,241);
+    --bs--color:#ccc;
+}
+
+@import "./style/header.scss";
+@import "./style/main.scss";
+@import "./style/contact.scss";
+@import "./style/footer.scss";
